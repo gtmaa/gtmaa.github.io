@@ -1,0 +1,10 @@
+.stations {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+iframe {
+	width: 75%;
+	height: 600px;
+}
