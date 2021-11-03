@@ -18,3 +18,14 @@ html, body {
 #app {
 	height: 100%;
 }
+
+@media (prefers-color-scheme: dark) {
+    html, body {
+		background: #121212;
+        color: #eee;
+    }
+
+    a {
+        color: #809fff;
+    }
+}
