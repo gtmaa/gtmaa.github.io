@@ -1,5 +1,25 @@
+@import '~style/grid';
+
 .about {
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
+}
+
+.trio {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+	.about {
+		padding: 56px 100px;
+	}
+}
+
+.ifbaCrest {
+	float: left;
+	margin-right: 20px;
+	width: 175px;
 }

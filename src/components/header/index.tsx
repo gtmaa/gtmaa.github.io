@@ -20,6 +20,9 @@ const Header: FunctionalComponent = () => {
                 <Link activeClassName={style.active} href="/membership">
                     Membership
                 </Link>
+                <Link activeClassName={style.active} onClick={toggle} href="/live-feed">
+                    Scanner Feeds
+                </Link>
                 <Link activeClassName={style.active} href="/shift-calendar">
                     Shift Calendar
                 </Link>

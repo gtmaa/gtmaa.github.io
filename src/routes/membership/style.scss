@@ -1,5 +1,13 @@
+@import '~style/grid';
+
 .membership {
 	padding: 56px 20px;
 	min-height: 100%;
 	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.membership {
+		padding: 56px 100px;
+	}
 }

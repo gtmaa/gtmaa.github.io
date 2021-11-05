@@ -1,4 +1,11 @@
 .notfound {
-    padding: 0 5%;
-    margin: 100px 0;
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.notfound {
+		padding: 56px 100px;
+	}
 }

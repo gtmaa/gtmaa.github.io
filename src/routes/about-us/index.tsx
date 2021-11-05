@@ -1,4 +1,5 @@
 import { FunctionalComponent, h } from 'preact';
+import cx from '../../lib/cx';
 import style from './style.scss';
 
 const AboutUs: FunctionalComponent = () => {
@@ -33,6 +34,12 @@ const AboutUs: FunctionalComponent = () => {
                 <p>Over the years, GTMAA has grown to about 40 members and twice as many subscribers. While many have moved on, new members are continuously attracted to our ideas of fellowship and inclusiveness. Our friends and alumni often walk through the door unannounced, always welcome from as far afield as the United States, Europe, and Asia.</p>
             </section>
 
+            <section class={cx(style.section, style.group, style.trio)}>
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/gary-and-og-buffs-pose-with-old-canteen.gif" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/scarborough-photo-tour-1977.jpg" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/delivery-of-old-support-7-dec-1996.jpg" />
+            </section>
+
             <section>
                 <h2>What is a Fire Buff?</h2>
                 <p>In general terms, a “buff” is defined as anyone with an intense interest or passion in virtually any subject. But did you know the very origin of the word “buff” can be traced to the fire service? More than a century ago as the legend goes, civilian supporters of the New York City Fire Department were frequently seen at extra-alarm blazes regardless of time or temperature. Standing on the sidewalk watching their helmeted heroes hard at work, these well-to-do citizens were conspicuous in their (expensive) buffalo-hide robes or coats. Hence their nickname “the buffaloes” – inevitably short-formed to “buffs”.</p>
@@ -42,9 +49,17 @@ const AboutUs: FunctionalComponent = () => {
                 <p>Courtesy Walt McCall – fire buff, author, and historian from Windsor, ON</p>
             </section>
 
+
+            <section class={cx(style.section, style.group)}>
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/apparatus/old-support-7-at-canada-day-parade.jpg" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/firefighters-at-100-echo-point-incident.jpg" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/2012-ifba-convention.jpg" />
+            </section>
+
             <section>
                 <h2>Affiliations</h2>
-                <p>The GTMAA is a proud member of the International Fire Buff Associates (IFBA), an organization formed to strengthen the bond among independent groups of fire buffs. The official mission of the IFBA is “to serve as a common ground for Fire Buffs, active in promoting the general welfare of Fire Departments, allied emergency services, their officers and members.”</p>
+                <img class={style.ifbaCrest} src="/assets/ifba-crest.png" />
+                <p>The GTMAA is a proud member of the <a href="https://ifba.org">International Fire Buff Associates (IFBA)</a>, an organization formed to strengthen the bond among independent groups of fire buffs. The official mission of the IFBA is “to serve as a common ground for Fire Buffs, active in promoting the general welfare of Fire Departments, allied emergency services, their officers and members.”</p>
                 <p>The IFBA was founded at the International Association of Fire Chiefs convention held in Toronto in 1953. Members of the GTMAA have had the distinction of serving among the highest levels of the IFBA Executive Office and frequently attend annual IFBA conventions held across North America. Thanks to the hard work of our membership, the annual convention returned to Toronto in 2012 with the GTMAA serving as host club.</p>
             </section>
         </div>

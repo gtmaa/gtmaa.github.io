@@ -1,0 +1,16 @@
+.scannerFeeds {
+	padding: 56px 20px;
+	min-height: 100%;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.scannerFeeds {
+		padding: 56px 100px;
+	}
+}
+
+.player {
+	width: 325px;
+	height: 245px;
+}
