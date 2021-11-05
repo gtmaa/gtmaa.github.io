@@ -20,7 +20,7 @@
 	color: #FFF;
 }
 
-.header img {
+.crest {
 	height: 90%;
 }
 
@@ -39,7 +39,6 @@
 	background: rgba(255,255,255,0);
 	text-decoration: none;
 	color: #FFF;
-	will-change: background-color;
 }
 
 .header nav a:hover,
@@ -49,4 +48,32 @@
 
 .header nav a.active {
 	background: rgba(0,0,0,0.4);
+}
+
+.menuIcon {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.menuIcon {
+		display: block;
+		float: right;
+		margin-top: 5px;
+		margin-right: 5px;
+		width: 45px;
+		height: 45px;
+	}
+
+	nav {
+		visibility: hidden;
+	}
+
+	.open {
+		visibility: visible;
+		background: #696969;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		padding-top: 30px;
+	}
 }
