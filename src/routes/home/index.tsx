@@ -11,7 +11,7 @@ const Home: FunctionalComponent = () => {
                     <p>The members of the Greater Toronto Multiple Alarm Association welcome you to our voice on the internet. We are one of the largest fire buff clubs in Canada, providing canteen and rehab services to the Toronto Fire Services (and previous fire departments) for almost 40 years. Fires happen day and night, often in the worst weather possible. Our volunteers are prepared to answer the call whenever it comes.</p>
                     <p>The G.T.M.A.A. is an inclusive, non-profit organization that is always looking for new fire buffs and fire service enthusiasts to fill out our ranks. Persons of all ages, including those belonging to other public service organizations, are always welcome. Check out our event calendar and get in touch if you are interested in joining us.</p>
                 </div>
-                <img class={cx(style.col, style.span_1_of_2)} src="assets/people/2013-fallen-firefighter-memorial.jpg" />
+                <img class={cx(style.col, style.span_1_of_2)} src="assets/people/2013-fallen-firefighter-memorial_thumb.jpg" />
             </section>
 
             <section>

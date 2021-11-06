@@ -8,8 +8,8 @@ const Canteen: FunctionalComponent = () => {
             <h1>CANTEEN</h1>
 
             <div class={cx(style.section, style.group)}>
-                <img class={cx(style.col, style.span_1_of_2)} src="/assets/apparatus/support-7.jpg" />
-                <img class={cx(style.col, style.span_1_of_2)} src="/assets/apparatus/support-7-operating-side.jpg" />
+                <img class={cx(style.col, style.span_1_of_2)} src="/assets/apparatus/support-7_thumb.jpg" />
+                <img class={cx(style.col, style.span_1_of_2)} src="/assets/apparatus/support-7-operating-side_thumb.jpg" />
             </div>
 
             <section>
@@ -30,7 +30,7 @@ const Canteen: FunctionalComponent = () => {
             <section>
                 <h2>Retired Units</h2>
                 <div class={cx(style.section, style.group)}>
-                    <img class={cx(style.col, style.span_1_of_3)} src="/assets/apparatus/old-support-7-operating-side.jpg" />
+                    <img class={cx(style.col, style.span_1_of_3)} src="/assets/apparatus/old-support-7-operating-side_thumb.jpg" />
                     <p class={cx(style.col, style.span_2_of_3)}>Delivered December 16, 1996 to much fan-fare, this GMC Step Van was the first purpose-built canteen operated by the club. Specifically designed to get firefighters inside and out of the elements, it featured state-of-the-art canteen equipment of its era, complete with air conditioning, a 5 kW generator, portable lights, and a long benched seating area for all-season rehab. Upfitting was performed by PK Van Bodies of Oshawa. The unit was retired from front-line service in September 2021 after a quarter century of use.</p>
                 </div>
                 <div class={cx(style.section, style.group)}>

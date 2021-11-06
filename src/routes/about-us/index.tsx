@@ -51,8 +51,8 @@ const AboutUs: FunctionalComponent = () => {
 
 
             <section class={cx(style.section, style.group)}>
-                <img class={cx(style.col, style.span_1_of_3)} src="/assets/apparatus/old-support-7-at-canada-day-parade.jpg" />
-                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/firefighters-at-100-echo-point-incident.jpg" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/apparatus/old-support-7-at-canada-day-parade_thumb.jpg" />
+                <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/firefighters-at-100-echo-point-incident_thumb.jpg" />
                 <img class={cx(style.col, style.span_1_of_3)} src="/assets/people/2012-ifba-convention.jpg" />
             </section>
 
