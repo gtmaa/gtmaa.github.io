@@ -10,3 +10,4 @@ coverage
 *.sw[op]
 *.log
 size-plugin.json
+.env

@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "gtmaa",
-  "version": "0.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "build": "preact build",
@@ -20,6 +20,8 @@
     ]
   },
   "dependencies": {
+    "contentful": "^9.1.33",
+    "dotenv-safe": "^8.2.0",
     "preact": "^10.6.5",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^4.0.1"
