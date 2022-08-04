@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "contentful": "^9.1.33",
-    "dotenv-safe": "^8.2.0",
+    "dotenv": "^16.0.1",
     "preact": "^10.6.5",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^4.0.1"

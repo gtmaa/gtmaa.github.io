@@ -1,16 +1,10 @@
-const { parsed } = require('dotenv-safe').config();
+// preact.config.js
+import dotenv from 'dotenv';
 
-export default function (config, env, helpers) {
-  // dotenv injection
-  const { plugin } = helpers.getPluginsByName(config, 'DefinePlugin')[0];
-  Object.assign(
-    plugin.definitions,
-    Object.keys(parsed).reduce(
-      (env, key) => ({
-        ...env,
-        [`process.env.${key}`]: JSON.stringify(parsed[key]),
-      }),
-      {}
-    )
-  );
+dotenv.config();
+
+export default (config, env, helpers) => {
+    const { plugin } = helpers.getPluginsByName(config, 'DefinePlugin')[0];
+    plugin.definitions['process.env.CONTENTFUL_ACCESS_TOKEN'] = JSON.stringify(process.env.CONTENTFUL_ACCESS_TOKEN);
+    plugin.definitions['process.env.CONTENTFUL_SPACE_ID'] = JSON.stringify(process.env.CONTENTFUL_SPACE_ID);
 }
