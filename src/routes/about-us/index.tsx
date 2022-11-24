@@ -9,17 +9,15 @@ const AboutUs: FunctionalComponent = () => {
 
             <section>
                 <h2>Executive Committee</h2>
-                <p>Updated November 2021</p>
+                <p>Updated November 2022</p>
                 <ul>
-                    <li>President - Carolyn Wignall</li>
-                    <li>Vice President - Jeremy Reigber</li>
+                    <li>President - Jeremy Reigber</li>
+                    <li>Vice President - Jen MacDonald</li>
                     <li>Treasurer - Dave MacDonald</li>
-                    <li>Secretary - Jen MacDonald</li>
                     <li>Directors</li>
                     <ul>
                         <li>Mike McNulty</li>
                         <li>Gord MacBride</li>
-                        <li>Frank McKittrick</li>
                         <li>Tony Coelho</li>
                     </ul>
                 </ul>
