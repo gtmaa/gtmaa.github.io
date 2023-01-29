@@ -9,7 +9,7 @@ const AboutUs: FunctionalComponent = () => {
 
             <section>
                 <h2>Executive Committee</h2>
-                <p>Updated November 2022</p>
+                <p>Updated January 2023</p>
                 <ul>
                     <li>President - Jeremy Reigber</li>
                     <li>Vice President - Jen MacDonald</li>
@@ -19,6 +19,7 @@ const AboutUs: FunctionalComponent = () => {
                         <li>Mike McNulty</li>
                         <li>Gord MacBride</li>
                         <li>Tony Coelho</li>
+                        <li>Peter Garnett</li>
                     </ul>
                 </ul>
             </section>
