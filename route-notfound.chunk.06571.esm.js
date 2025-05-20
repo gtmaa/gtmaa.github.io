@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{h8s1:function(t,e,o){"use strict";o.r(e);var l=o("hosL"),n=o("JBDq"),r=o("Hrl7"),c="notfound__LIgBX";e.default=()=>Object(l.h)("div",{class:c},Object(l.h)(r.a,null,Object(l.h)("title",null,"Greater Toronto Multiple Alarm Association - 404 Error")),Object(l.h)("h1",null,"Error 404"),Object(l.h)("p",null,"That page doesn't exist."),Object(l.h)(n.a,{href:"/"},Object(l.h)("h4",null,"Back to Home")))}}]);
+//# sourceMappingURL=route-notfound.chunk.06571.esm.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://./routes/notfound/style.scss"],"names":[],"mappings":"AAAA,iBAEC,eAAA,CADA,iBAAA,CAEA,UAAA,CAGD,wBACC,iBACC,kBAAA,CAAA","file":"route-notfound.chunk.c6341.css","sourcesContent":[".notfound {\n\tpadding: 56px 20px;\n\tmin-height: 100%;\n\twidth: 100%;\n}\n\n@media (min-width: 768px) {\n\t.notfound {\n\t\tpadding: 56px 100px;\n\t}\n}\n"]}
