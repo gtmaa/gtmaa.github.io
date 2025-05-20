@@ -10105,17 +10105,17 @@ var app_App = function App() {
   }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, null, Object(external_preact_["h"])(home, {
     path: "/"
   }), Object(external_preact_["h"])(about_us, {
-    path: "/about-us"
+    path: "/about-us(/)"
   }), Object(external_preact_["h"])(canteen, {
-    path: "/canteen"
+    path: "/canteen(/)"
   }), Object(external_preact_["h"])(membership, {
-    path: "/membership"
+    path: "/membership(/)"
   }), Object(external_preact_["h"])(scanner_feeds, {
-    path: "/live-feed"
+    path: "/live-feed(/)"
   }), Object(external_preact_["h"])(shift_calendar, {
-    path: "/shift-calendar"
+    path: "/shift-calendar(/)"
   }), Object(external_preact_["h"])(stations, {
-    path: "/stations"
+    path: "/stations(/)"
   }), Object(external_preact_["h"])(notfound, {
     default: true
   })), Object(external_preact_["h"])(footer, null));
