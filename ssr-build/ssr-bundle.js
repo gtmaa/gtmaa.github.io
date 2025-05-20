@@ -10102,27 +10102,20 @@ var footer_Footer = function Footer() {
 var app_App = function App() {
   return Object(external_preact_["h"])("div", {
     id: "preact_root"
-  }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, null, Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/",
-    component: home
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/about-us",
-    component: about_us
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/canteen",
-    component: canteen
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/membership",
-    component: membership
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/live-feed",
-    component: scanner_feeds
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/shift-calendar",
-    component: shift_calendar
-  }), Object(external_preact_["h"])(preact_router_module_L, {
-    path: "/stations",
-    component: stations
+  }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, null, Object(external_preact_["h"])(home, {
+    path: "/"
+  }), Object(external_preact_["h"])(about_us, {
+    path: "/about-us"
+  }), Object(external_preact_["h"])(canteen, {
+    path: "/canteen"
+  }), Object(external_preact_["h"])(membership, {
+    path: "/membership"
+  }), Object(external_preact_["h"])(scanner_feeds, {
+    path: "/live-feed"
+  }), Object(external_preact_["h"])(shift_calendar, {
+    path: "/shift-calendar"
+  }), Object(external_preact_["h"])(stations, {
+    path: "/stations"
   }), Object(external_preact_["h"])(notfound, {
     default: true
   })), Object(external_preact_["h"])(footer, null));
