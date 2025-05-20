@@ -9928,15 +9928,15 @@ var notfound_Notfound = function Notfound() {
 
 
 var scanner_feeds_ScannerFeeds = function ScannerFeeds() {
-  var mq = window.matchMedia('(prefers-color-scheme: dark)');
-  var useDarkMode = mq.matches;
-  var bg, fg;
-  if (useDarkMode) {
-    bg = '121212';
-    fg = 'eee';
-  } else {
-    bg = 'fafafa';
-    fg = '444';
+  var bg = 'fafafa';
+  var fg = '444';
+  if (typeof window !== "undefined") {
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var useDarkMode = mq.matches;
+    if (useDarkMode) {
+      bg = '121212';
+      fg = 'eee';
+    }
   }
   return Object(external_preact_["h"])("div", {
     class: scanner_feeds_style.scannerFeeds
