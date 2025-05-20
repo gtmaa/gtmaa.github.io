@@ -1,5 +1,5 @@
 import { FunctionalComponent, h } from 'preact';
-import { Route, Router } from 'preact-router';
+import { Router } from 'preact-router';
 
 import Home from '../routes/home';
 import AboutUs from '../routes/about-us';
@@ -17,13 +17,13 @@ const App: FunctionalComponent = () => {
         <div id="preact_root">
             <Header />
             <Router>
-                <Route path="/" component={Home} />
-                <Route path="/about-us" component={AboutUs} />
-                <Route path="/canteen" component={Canteen} />
-                <Route path="/membership" component={Membership} />
-                <Route path="/live-feed" component={ScannerFeeds} />
-                <Route path="/shift-calendar" component={ShiftCalendar} />
-                <Route path="/stations" component={Stations} />
+                <Home path="/" />
+                <AboutUs path="/about-us" />
+                <Canteen path="/canteen" />
+                <Membership path="/membership" />
+                <ScannerFeeds path="/live-feed"/>
+                <ShiftCalendar path="/shift-calendar" />
+                <Stations path="/stations" />
                 <NotFoundPage default />
             </Router>
             <Footer />
