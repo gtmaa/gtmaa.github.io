@@ -4,9 +4,9 @@
   "version": "1.0.1",
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_OPTIONS=\"--openssl-legacy-provider --no-experimental-fetch\" && preact build --prerenderUrls",
+    "build": "export NODE_OPTIONS=\"--openssl-legacy-provider --no-experimental-fetch\" && preact build --prerenderUrls ./prerender-urls.json",
     "serve": "sirv build --port 8080 --cors --single",
-    "dev": "preact watch",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && preact watch --prerenderUrls ./prerender-urls.json",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "postinstall": "patch-package"
   },

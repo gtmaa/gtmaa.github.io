@@ -3,15 +3,16 @@ import { Helmet } from 'react-helmet';
 import style from './style.scss';
 
 const ScannerFeeds: FunctionalComponent = () => {
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const useDarkMode = mq.matches;
-    let bg, fg;
-    if (useDarkMode) {
-        bg = '121212';
-        fg = 'eee';
-    } else {
-        bg = 'fafafa';
-        fg = '444';
+    let bg = 'fafafa';
+    let fg = '444';
+
+    if (typeof window !== "undefined") {
+        const mq = window.matchMedia('(prefers-color-scheme: dark)');
+        const useDarkMode = mq.matches;
+        if (useDarkMode) {
+            bg = '121212';
+            fg = 'eee';
+        }
     }
 
     return (

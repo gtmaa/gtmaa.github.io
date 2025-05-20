@@ -1,23 +1,23 @@
 [
-	{
+  {
 		"url": "/"
 	},
 	{
 		"url": "/about-us"
-    },
-    {
-		"url": "/canteen"
-    },
-    {
-		"url": "/membership"
-    },
-    {
-		"url": "/live-feed"
-    },
-    {
-		"url": "/live-feed"
-    },
-    {
-		"url": "/stations"
-    }
+  },
+  {
+    "url": "/canteen"
+  },
+  {
+    "url": "/membership"
+  },
+  {
+    "url": "/live-feed"
+  },
+  {
+    "url": "/shift-calendar"
+  },
+  {
+    "url": "/stations"
+  }
 ]
