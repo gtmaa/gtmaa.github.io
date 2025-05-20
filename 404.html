@@ -3,10 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Greater Toronto Multiple Alarm Association</title>
-    <script>
-      // Save the current path and redirect to the root
+    <script type="text/javascript">
+      // Save the current path (without trailing slash) and redirect to the root
       if (location.pathname !== '/' && location.pathname !== '/index.html') {
-        sessionStorage.redirect = location.pathname + location.search + location.hash;
+        let path = location.pathname;
+        if (path.length > 1 && path.endsWith('/')) {
+          path = path.slice(0, -1);
+        }
+        sessionStorage.redirect = path + location.search + location.hash;
         window.location.replace('/');
       }
     </script>
