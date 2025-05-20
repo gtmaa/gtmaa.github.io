@@ -1,4 +1,5 @@
 import { FunctionalComponent, h } from 'preact';
+import { Helmet } from 'react-helmet';
 import style from './style.scss';
 
 const ScannerFeeds: FunctionalComponent = () => {
@@ -15,6 +16,9 @@ const ScannerFeeds: FunctionalComponent = () => {
 
     return (
         <div class={style.scannerFeeds}>
+            <Helmet>
+                <title>Greater Toronto Multiple Alarm Association - Scanner Feeds</title>
+            </Helmet>
             <h1>TORONTO FIRE SCANNER FEEDS</h1>
 
             <p>These feeds provide a live stream of TFS radio traffic for South and East Commands.</p>

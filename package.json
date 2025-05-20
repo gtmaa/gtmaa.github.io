@@ -24,9 +24,11 @@
     "dotenv": "^16.0.1",
     "preact": "^10.6.5",
     "preact-render-to-string": "^5.1.4",
-    "preact-router": "^4.0.1"
+    "preact-router": "^4.0.1",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.11",
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
     "eslint": "^8.9.0",

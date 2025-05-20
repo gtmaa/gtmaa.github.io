@@ -1,10 +1,14 @@
 import { FunctionalComponent, h } from 'preact';
+import { Helmet } from 'react-helmet';
 import cx from '../../lib/cx';
 import style from './style.scss';
 
 const Membership: FunctionalComponent = () => {
     return (
         <div class={style.membership}>
+            <Helmet>
+                <title>Greater Toronto Multiple Alarm Association - Membership</title>
+            </Helmet>
             <h1>MEMBERSHIP</h1>
 
             <div class={cx(style.section, style.group)}>
