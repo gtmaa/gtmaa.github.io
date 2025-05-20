@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title>Greater Toronto Multiple Alarm Association</title>
     <script>
-        // ====================================================================================================================
-        // This text is to simply ensure the 404.html file is larger than 512 bytes, otherwise Internet Explorer will ignore it.
-        // Thank you Internet Exploder for requiring such a fantastic workaround in order to work properly
-        // ====================================================================================================================
-        sessionStorage.redirect = location.href;
+      // Save the current path and redirect to the root
+      if (location.pathname !== '/' && location.pathname !== '/index.html') {
+        sessionStorage.redirect = location.pathname + location.search + location.hash;
+        window.location.replace('/');
+      }
     </script>
-    <meta http-equiv="refresh" content="0;URL='/'">
   </head>
+  <body>
+    <h1>Redirecting...</h1>
+  </body>
 </html>
