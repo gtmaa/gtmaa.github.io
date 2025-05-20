@@ -1,10 +1,14 @@
 import { FunctionalComponent, h } from 'preact';
+import { Helmet } from 'react-helmet';
 import cx from '../../lib/cx';
 import style from './style.scss';
 
 const AboutUs: FunctionalComponent = () => {
     return (
         <div class={style.about}>
+            <Helmet>
+                <title>Greater Toronto Multiple Alarm Association - About Us</title>
+            </Helmet>
             <h1>ABOUT US</h1>
 
             <section>

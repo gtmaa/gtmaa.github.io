@@ -2,6 +2,7 @@ import { FunctionalComponent, h } from 'preact';
 import { Link } from 'preact-router/match';
 import style from './style.scss';
 import { useCallback, useState } from 'preact/hooks';
+import { Helmet } from 'react-helmet';
 
 const Header: FunctionalComponent = () => {
     const [open, setOpen] = useState(false);
@@ -9,6 +10,9 @@ const Header: FunctionalComponent = () => {
 
     return (
         <header class={style.header}>
+            <Helmet>
+                <title>Greater Toronto Multiple Alarm Association</title>
+            </Helmet>
             <h1>GTMAA</h1>
             <img class={style.crest} src="/assets/icons/apple-touch-icon.png" />
             <div class={style.menuIcon} onClick={toggle}>
