@@ -13,11 +13,11 @@ const AboutUs: FunctionalComponent = () => {
 
             <section>
                 <h2>Executive Committee</h2>
-                <p>Updated January 2025</p>
+                <p>Updated May 2025</p>
                 <ul>
                     <li>President - Jeremy Reigber</li>
-                    <li>Vice President - Jen MacDonald</li>
-                    <li>Treasurer - Dave MacDonald</li>
+                    <li>Vice President - Mike McNulty</li>
+                    <li>Treasurer - Jen MacDonald</li>
                     <li>Secretary - Brian Noble</li>
                     <li>Directors</li>
                     <ul>
