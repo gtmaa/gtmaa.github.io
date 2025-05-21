@@ -10100,18 +10100,9 @@ var footer_Footer = function Footer() {
 
 
 var app_App = function App() {
-  function removeTrailingSlash(_ref) {
-    var url = _ref.url;
-    if (typeof window !== "undefined" && url.slice(-1) === '/') {
-      window.history.replaceState(null, '', url.slice(0, -1));
-    }
-  }
-  ;
   return Object(external_preact_["h"])("div", {
     id: "preact_root"
-  }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, {
-    onChange: removeTrailingSlash
-  }, Object(external_preact_["h"])(home, {
+  }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, null, Object(external_preact_["h"])(home, {
     path: "/"
   }), Object(external_preact_["h"])(about_us, {
     path: "/about-us"
