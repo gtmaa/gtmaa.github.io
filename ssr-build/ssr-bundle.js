@@ -10111,9 +10111,7 @@ var app_App = function App() {
     id: "preact_root"
   }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, {
     onChange: removeTrailingSlash
-  }, Object(external_preact_["h"])(home, {
-    path: "/"
-  }), Object(external_preact_["h"])(about_us, {
+  }, Object(external_preact_["h"])(about_us, {
     path: "/about-us"
   }), Object(external_preact_["h"])(canteen, {
     path: "/canteen"
@@ -10125,6 +10123,9 @@ var app_App = function App() {
     path: "/shift-calendar"
   }), Object(external_preact_["h"])(stations, {
     path: "/stations"
+  }), Object(external_preact_["h"])(home, {
+    exact: true,
+    path: "/"
   }), Object(external_preact_["h"])(notfound, {
     default: true
   })), Object(external_preact_["h"])(footer, null));
