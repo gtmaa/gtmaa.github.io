@@ -6,12 +6,7 @@
     <script>
       // Save the current path and redirect to the root
       if (location.pathname !== '/' && location.pathname !== '/index.html') {
-        let url = location.pathname + location.search + location.hash;
-        // Delete trailing slash
-        if (url?.endsWith('/')) {
-          url = url.slice(0, -1);
-        }
-        sessionStorage.redirect = url;
+        sessionStorage.redirect = location.pathname + location.search + location.hash;
         window.location.replace('/');
       }
     </script>

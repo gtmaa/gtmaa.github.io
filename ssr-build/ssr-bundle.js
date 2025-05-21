@@ -10087,6 +10087,13 @@ var footer_Footer = function Footer() {
 };
 /* harmony default export */ var footer = (footer_Footer);
 // CONCATENATED MODULE: ./components/app.tsx
+function app_slicedToArray(arr, i) { return app_arrayWithHoles(arr) || app_iterableToArrayLimit(arr, i) || app_unsupportedIterableToArray(arr, i) || app_nonIterableRest(); }
+function app_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function app_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return app_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return app_arrayLikeToArray(o, minLen); }
+function app_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function app_iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+function app_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -10100,9 +10107,21 @@ var footer_Footer = function Footer() {
 
 
 var app_App = function App() {
+  var _useState = Object(hooks_module["k" /* useState */])(0),
+    _useState2 = app_slicedToArray(_useState, 2),
+    headerKey = _useState2[0],
+    setHeaderKey = _useState2[1];
   return Object(external_preact_["h"])("div", {
     id: "preact_root"
-  }, Object(external_preact_["h"])(header, null), Object(external_preact_["h"])(D, null, Object(external_preact_["h"])(home, {
+  }, Object(external_preact_["h"])(header, {
+    key: headerKey
+  }), Object(external_preact_["h"])(D, {
+    onChange: function onChange() {
+      return setHeaderKey(function (k) {
+        return k + 1;
+      });
+    }
+  }, Object(external_preact_["h"])(home, {
     path: "/"
   }), Object(external_preact_["h"])(about_us, {
     path: "/about-us"
