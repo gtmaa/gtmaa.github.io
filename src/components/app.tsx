@@ -1,4 +1,5 @@
 import { FunctionalComponent, h } from 'preact';
+import { useState } from 'preact/hooks';
 import { Router } from 'preact-router';
 
 import Home from '../routes/home';
@@ -13,10 +14,12 @@ import Header from './header';
 import Footer from './footer';
 
 const App: FunctionalComponent = () => {
+    const [headerKey, setHeaderKey] = useState(0);
+
     return (
         <div id="preact_root">
-            <Header />
-            <Router>
+            <Header key={headerKey} />
+            <Router onChange={() => setHeaderKey(k => k + 1)}>
                 <Home path="/" />
                 <AboutUs path="/about-us" />
                 <Canteen path="/canteen" />
