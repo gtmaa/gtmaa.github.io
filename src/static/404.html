@@ -5,7 +5,7 @@
     <title>Greater Toronto Multiple Alarm Association</title>
     <script>
       // Save the current path and redirect to the root
-      if (location.pathname !== '/' && location.pathname !== '/index.html') {
+      if (typeof window !== "undefined" && location.pathname !== '/' && location.pathname !== '/index.html') {
         sessionStorage.redirect = location.pathname + location.search + location.hash;
         window.location.replace('/');
       }
