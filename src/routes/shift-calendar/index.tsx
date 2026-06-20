@@ -10,7 +10,7 @@ const ShiftCalendar: FunctionalComponent = () => {
             </Helmet>
             <h1>TORONTO FIRE SHIFT CALENDAR</h1>
             <p>The Toronto Fire Services Suppression Division is divided into four platoons, each working a 24-hour shift. Shift rotation is staggered over twenty-eight days as depicted in the below schedule provided by the Toronto Professional Firefighters Association. The staggered rotation allows each platoon to have two complete weekends off per month. Shift change occurs at 07:00 hrs each morning.</p>
-            <img class={style.cal} src="/assets/shift-calendars/2025.jpg" />
+            <img class={style.cal} src="/assets/shift-calendars/2026.jpg" alt="2026 Toronto Fire Services shift calendar" />
         </div>
     );
 };
