@@ -221,6 +221,13 @@ module.exports = function isEqual(a, b) {
 
 /***/ }),
 
+/***/ "A5Mw":
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"id\":\"tps-funeral-2026-06-24\",\"title\":\"Deploying for Toronto Police Funeral\",\"date\":\"2026-06-20\",\"category\":\"Support 7\",\"body\":\"Support 7 will be deployed on June 24th in support of the regimental funeral for Toronto Police Constable Marc Pinizzotto. GTMAA members will provide canteen and rehab services to first responders attending the service.\"},{\"id\":\"club-bbq-2026-06\",\"title\":\"Annual Club BBQ\",\"date\":\"2026-06-16\",\"category\":\"Club News\",\"body\":\"Members gathered for the GTMAA's annual summer barbecue. Thanks to everyone who came out and to Peter Garnett for hosting. A great chance to catch up between callouts.\"},{\"id\":\"sup7-2026-05-31\",\"title\":\"2nd Alarm House Fire\",\"date\":\"2026-05-31\",\"category\":\"Support 7\",\"location\":\"130 Ellesmere Road, Scarborough\",\"body\":\"Support 7 responded to a 2nd alarm house fire at 130 Ellesmere Road in Maryvale. Eight members provided refreshments on a hot afternoon, logging 22 hours of service before clearing at 1705.\"},{\"id\":\"sup7-2026-05-29\",\"title\":\"2nd Alarm House Fire\",\"date\":\"2026-05-29\",\"category\":\"Support 7\",\"location\":\"38 Madras Crescent, Scarborough\",\"body\":\"Support 7 was called out to a 2nd alarm house fire at 38 Madras Crescent in Morningside. Eight members attended and logged 25.5 hours of service. The canteen returned to quarters at 1945.\"},{\"id\":\"sup7-2026-05-21\",\"title\":\"2nd Alarm Dwelling Fire\",\"date\":\"2026-05-21\",\"category\":\"Support 7\",\"location\":\"24 Brigadoon Crescent, Scarborough\",\"body\":\"Support 7 responded to a 2nd alarm dwelling fire at 24 Brigadoon Crescent in the L'Amoreaux neighbourhood. Eight members were in attendance from 1840 to 2130, combining for 22 hours of service.\"},{\"id\":\"sup7-2026-05-04\",\"title\":\"3rd Alarm High-Rise Fire\",\"date\":\"2026-05-04\",\"category\":\"Support 7\",\"location\":\"11 Thorncliffe Park Drive, East York\",\"body\":\"Support 7 was dispatched to a 3rd alarm high-rise fire at 11 Thorncliffe Park Drive, the same building that saw a prolonged 5-alarm incident last November. Service was provided until 1645, with 18.75 hours of manpower logged.\"},{\"id\":\"beaches-easter-parade-2026-04-05\",\"title\":\"Beaches Easter Parade\",\"date\":\"2026-04-05\",\"category\":\"Club News\",\"body\":\"GTMAA members took part in the annual Beaches Easter Parade along Queen Street East, from Neville Park to Woodbine. A small but dedicated crew represented the club and got the job done.\"},{\"id\":\"st-patricks-parade-2026-03-15\",\"title\":\"St. Patrick's Day Parade\",\"date\":\"2026-03-15\",\"category\":\"Club News\",\"body\":\"GTMAA members joined the annual St. Patrick's Day Parade in downtown Toronto, with Support 7 in service for the day.\"}]");
+
+/***/ }),
+
 /***/ "E02R":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1304,37 +1311,6 @@ var preact_router_module_E = function E(n) {
     return Object(external_preact_["h"])(n.component, n);
   };
 
-// CONCATENATED MODULE: ./lib/cx.js
-function cx() {
-  var out = '';
-  for (var i = 0; i < arguments.length; i++) {
-    // eslint-disable-next-line prefer-rest-params
-    var x = arguments[i];
-    if (out) out += ' ';
-    if (x) out += x;
-  }
-  return out;
-}
-// CONCATENATED MODULE: ./routes/home/style.scss
-// extracted by mini-css-extract-plugin
-/* harmony default export */ var style = ({"section":"section__Do9Tx","col":"col__XD6T8","group":"group__6ppgu","span_3_of_3":"span_3_of_3__ABfqm","span_2_of_3":"span_2_of_3__wvYZ1","span_1_of_3":"span_1_of_3__PWUh9","span_2_of_2":"span_2_of_2__8Bjlk","span_1_of_2":"span_1_of_2__ElsF+","home":"home__s0ssE"});
-// CONCATENATED MODULE: ./routes/home/index.tsx
-
-
-
-var home_Home = function Home() {
-  return Object(external_preact_["h"])("div", {
-    class: style.home
-  }, Object(external_preact_["h"])("section", {
-    class: cx(style.section, style.group)
-  }, Object(external_preact_["h"])("div", {
-    class: cx(style.col, style.span_1_of_2)
-  }, Object(external_preact_["h"])("h1", null, "WELCOME"), Object(external_preact_["h"])("p", null, "The members of the Greater Toronto Multiple Alarm Association welcome you to our voice on the internet. We are one of the largest fire buff clubs in Canada, providing canteen and rehab services to the Toronto Fire Services (and previous fire departments) for almost 40 years. Fires happen day and night, often in the worst weather possible. Our volunteers are prepared to answer the call whenever it comes."), Object(external_preact_["h"])("p", null, "The G.T.M.A.A. is an inclusive, non-profit organization that is always looking for new fire buffs and fire service enthusiasts to fill out our ranks. Persons of all ages, including those belonging to other public service organizations, are always welcome. Check out our event calendar and get in touch if you are interested in joining us.")), Object(external_preact_["h"])("img", {
-    class: cx(style.col, style.span_1_of_2),
-    src: "assets/people/2013-fallen-firefighter-memorial_thumb.jpg"
-  })), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "Meetings"), Object(external_preact_["h"])("p", null, "A general business meeting is held on the third Tuesday of every month, starting at 7 P.M. Each meeting is open to guests with the exception of the April meeting. Most meetings conclude with some type of entertainment - either slides or a video or a guest speaker. Some months we hold our meetings off site at another fire service facility. Guests are advised to contact us before visiting to confirm the location.")), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "The Trumpet"), Object(external_preact_["h"])("p", null, "The Trumpet is the voice of the Greater Toronto Multiple Alarm Association. Since 1976 it has been the foremost source on fire service information in the Toronto area. No other publication gives you more - apparatus deliveries, department news, a monthly synopsis of major multiple alarm incidents, as well as the latest club news. Most issues are rounded out with interesting photos. For the low price of $10, receive a PDF version of The Trumpet in your inbox every month of the year. Contact us today to sign up for your subscription.")));
-};
-/* harmony default export */ var home = (home_Home);
 // EXTERNAL MODULE: ../node_modules/prop-types/index.js
 var prop_types = __webpack_require__("W0B4");
 var prop_types_default = /*#__PURE__*/__webpack_require__.n(prop_types);
@@ -2108,6 +2084,106 @@ var HelmetExport = Helmet_Helmet(HelmetSideEffects);
 HelmetExport.renderStatic = HelmetExport.rewind;
 /* harmony default export */ var es_Helmet = (HelmetExport);
 
+// CONCATENATED MODULE: ./lib/posts.ts
+var STALE_AFTER_MONTHS = 6;
+function formatDate(date) {
+  var d = new Date(date);
+  if (isNaN(d.getTime())) return date;
+  return d.toLocaleDateString('en-CA', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC'
+  });
+}
+
+/**
+ * Returns posts no older than STALE_AFTER_MONTHS, newest first.
+ * Posts with an unparseable date are dropped.
+ */
+function getActivePosts(posts) {
+  var now = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : new Date();
+  var cutoff = new Date(now);
+  cutoff.setMonth(cutoff.getMonth() - STALE_AFTER_MONTHS);
+  return posts.filter(function (post) {
+    var d = new Date(post.date);
+    return !isNaN(d.getTime()) && d >= cutoff;
+  }).sort(function (a, b) {
+    return b.date.localeCompare(a.date);
+  });
+}
+// EXTERNAL MODULE: ./data/posts.json
+var posts = __webpack_require__("A5Mw");
+
+// CONCATENATED MODULE: ./components/club-news/style.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ var style = ({"grid":"grid__+jJ-L","card":"card__VYvnR","badge":"badge__6ZRLd","location":"location__K-ioX","date":"date__vu5np","cardLink":"cardLink__MBRHo","empty":"empty__IPnQG"});
+// CONCATENATED MODULE: ./components/club-news/index.tsx
+
+
+
+
+var club_news_posts = getActivePosts(posts);
+var club_news_ClubNews = function ClubNews() {
+  return Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "Club News"), club_news_posts.length === 0 ? Object(external_preact_["h"])("p", {
+    class: style.empty
+  }, "Check back soon for the latest club news and Support 7 callouts.") : Object(external_preact_["h"])("div", {
+    class: style.grid
+  }, club_news_posts.map(function (post) {
+    return Object(external_preact_["h"])("article", {
+      key: post.id,
+      class: style.card
+    }, post.category && Object(external_preact_["h"])("span", {
+      class: style.badge
+    }, post.category), Object(external_preact_["h"])("h3", null, post.title), post.location && Object(external_preact_["h"])("p", {
+      class: style.location
+    }, Object(external_preact_["h"])("i", {
+      class: "fas fa-map-marker-alt",
+      "aria-hidden": "true"
+    }), " ", post.location), Object(external_preact_["h"])("time", {
+      class: style.date,
+      dateTime: post.date
+    }, formatDate(post.date)), Object(external_preact_["h"])("p", null, post.body), post.link && Object(external_preact_["h"])("p", {
+      class: style.cardLink
+    }, Object(external_preact_["h"])("a", {
+      href: post.link
+    }, "Related link")));
+  })));
+};
+/* harmony default export */ var club_news = (club_news_ClubNews);
+// CONCATENATED MODULE: ./routes/home/style.scss
+// extracted by mini-css-extract-plugin
+/* harmony default export */ var home_style = ({"section":"section__Do9Tx","col":"col__XD6T8","group":"group__6ppgu","span_3_of_3":"span_3_of_3__ABfqm","span_2_of_3":"span_2_of_3__wvYZ1","span_1_of_3":"span_1_of_3__PWUh9","span_2_of_2":"span_2_of_2__8Bjlk","span_1_of_2":"span_1_of_2__ElsF+","home":"home__s0ssE","hero":"hero__jT+30","welcome":"welcome__iFXCz","welcomeImg":"welcomeImg__TyPqH"});
+// CONCATENATED MODULE: ./routes/home/index.tsx
+
+
+
+
+var home_Home = function Home() {
+  return Object(external_preact_["h"])("div", {
+    class: home_style.home
+  }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "Greater Toronto Multiple Alarm Association")), Object(external_preact_["h"])("section", {
+    class: home_style.welcome
+  }, Object(external_preact_["h"])("div", {
+    class: home_style.welcomeText
+  }, Object(external_preact_["h"])("h2", null, "Welcome"), Object(external_preact_["h"])("p", null, "The members of the Greater Toronto Multiple Alarm Association welcome you to our voice on the internet. We are one of the largest fire buff clubs in Canada, providing canteen and rehab services to the Toronto Fire Services (and previous fire departments) for almost 40 years. Fires happen day and night, often in the worst weather possible. Our volunteers are prepared to answer the call whenever it comes."), Object(external_preact_["h"])("p", null, "The G.T.M.A.A. is an inclusive, non-profit organization that is always looking for new fire buffs and fire service enthusiasts to fill out our ranks. Persons of all ages, including those belonging to other public service organizations, are always welcome. Check out our event calendar and get in touch if you are interested in joining us.")), Object(external_preact_["h"])("img", {
+    class: home_style.welcomeImg,
+    src: "/assets/people/2013-fallen-firefighter-memorial_thumb.jpg",
+    alt: "GTMAA members at the 2013 Fallen Firefighter Memorial"
+  })), Object(external_preact_["h"])(club_news, null), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "Meetings"), Object(external_preact_["h"])("p", null, "A general business meeting is held on the third Tuesday of every month, starting at 7 P.M. Each meeting is open to guests with the exception of the April meeting. Most meetings conclude with some type of entertainment - either slides or a video or a guest speaker. Some months we hold our meetings off site at another fire service facility. Guests are advised to contact us before visiting to confirm the location.")), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "The Trumpet"), Object(external_preact_["h"])("p", null, "The Trumpet is the voice of the Greater Toronto Multiple Alarm Association. Since 1976 it has been the foremost source on fire service information in the Toronto area. No other publication gives you more - apparatus deliveries, department news, a monthly synopsis of major multiple alarm incidents, as well as the latest club news. Most issues are rounded out with interesting photos. For the low price of $10, receive a PDF version of The Trumpet in your inbox every month of the year. Contact us today to sign up for your subscription.")));
+};
+/* harmony default export */ var home = (home_Home);
+// CONCATENATED MODULE: ./lib/cx.js
+function cx() {
+  var out = '';
+  for (var i = 0; i < arguments.length; i++) {
+    // eslint-disable-next-line prefer-rest-params
+    var x = arguments[i];
+    if (out) out += ' ';
+    if (x) out += x;
+  }
+  return out;
+}
 // CONCATENATED MODULE: ./routes/about-us/style.scss
 // extracted by mini-css-extract-plugin
 /* harmony default export */ var about_us_style = ({"section":"section__7KcG4","col":"col__iLYL3","group":"group__A6V8T","span_3_of_3":"span_3_of_3__v1hTd","span_2_of_3":"span_2_of_3__h6ZPm","span_1_of_3":"span_1_of_3__qeLhE","span_2_of_2":"span_2_of_2__JBBNE","span_1_of_2":"span_1_of_2__54dIs","about":"about__sO6bl","trio":"trio__m815t","ifbaCrest":"ifbaCrest__EyYo+"});
