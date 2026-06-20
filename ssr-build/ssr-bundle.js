@@ -2153,7 +2153,7 @@ var club_news_ClubNews = function ClubNews() {
 /* harmony default export */ var club_news = (club_news_ClubNews);
 // CONCATENATED MODULE: ./routes/home/style.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var home_style = ({"section":"section__Do9Tx","col":"col__XD6T8","group":"group__6ppgu","span_3_of_3":"span_3_of_3__ABfqm","span_2_of_3":"span_2_of_3__wvYZ1","span_1_of_3":"span_1_of_3__PWUh9","span_2_of_2":"span_2_of_2__8Bjlk","span_1_of_2":"span_1_of_2__ElsF+","home":"home__s0ssE","hero":"hero__jT+30","welcome":"welcome__iFXCz","welcomeImg":"welcomeImg__TyPqH"});
+/* harmony default export */ var home_style = ({"section":"section__Do9Tx","col":"col__XD6T8","group":"group__6ppgu","span_3_of_3":"span_3_of_3__ABfqm","span_2_of_3":"span_2_of_3__wvYZ1","span_1_of_3":"span_1_of_3__PWUh9","span_2_of_2":"span_2_of_2__8Bjlk","span_1_of_2":"span_1_of_2__ElsF+","home":"home__s0ssE","hero":"hero__jT+30","heroInner":"heroInner__8p1Ke","tagline":"tagline__aUsJY","welcome":"welcome__iFXCz","welcomeImg":"welcomeImg__TyPqH"});
 // CONCATENATED MODULE: ./routes/home/index.tsx
 
 
@@ -2163,6 +2163,12 @@ var home_Home = function Home() {
   return Object(external_preact_["h"])("div", {
     class: home_style.home
   }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "Greater Toronto Multiple Alarm Association")), Object(external_preact_["h"])("section", {
+    class: home_style.hero
+  }, Object(external_preact_["h"])("div", {
+    class: home_style.heroInner
+  }, Object(external_preact_["h"])("h1", null, "Greater Toronto Multiple Alarm Association"), Object(external_preact_["h"])("p", {
+    class: home_style.tagline
+  }, "Serving those who protect us since 1975"))), Object(external_preact_["h"])("section", {
     class: home_style.welcome
   }, Object(external_preact_["h"])("div", {
     class: home_style.welcomeText
