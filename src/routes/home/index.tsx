@@ -10,6 +10,13 @@ const Home: FunctionalComponent = () => {
                 <title>Greater Toronto Multiple Alarm Association</title>
             </Helmet>
 
+            <section class={style.hero}>
+                <div class={style.heroInner}>
+                    <h1>Greater Toronto Multiple Alarm Association</h1>
+                    <p class={style.tagline}>Serving those who protect us since 1975</p>
+                </div>
+            </section>
+
             <section class={style.welcome}>
                 <div class={style.welcomeText}>
                     <h2>Welcome</h2>
