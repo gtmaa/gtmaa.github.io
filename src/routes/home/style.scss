@@ -1,18 +1,57 @@
 @use '~style/grid';
 
 .home {
-	padding: 56px 20px;
+	padding: 56px 20px 40px;
 	min-height: 100%;
 	width: 100%;
 
-	section:not(:first-of-type):not(:last-of-type) {
+	section:not(.hero):not(:last-of-type) {
 		border-bottom: 1px solid lightgray;
-		padding: 50px 0;
+		padding: 44px 0;
 	}
+
+	h2 {
+		font-size: 28px;
+		font-weight: 600;
+		margin: 0 0 20px;
+		letter-spacing: 0.2px;
+	}
+}
+
+/* Welcome */
+.welcome {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 28px;
+	align-items: center;
+}
+
+.welcomeImg {
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+	object-fit: cover;
 }
 
 @media (min-width: 768px) {
 	.home {
-		padding: 56px 100px;
+		padding: 56px 100px 60px;
+	}
+
+	.welcome {
+		grid-template-columns: 1fr 1fr;
+		gap: 40px;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.home {
+		h2 {
+			color: #f0f0f0;
+		}
+
+		section:not(.hero):not(:last-of-type) {
+			border-bottom-color: #2a2a2a;
+		}
 	}
 }
