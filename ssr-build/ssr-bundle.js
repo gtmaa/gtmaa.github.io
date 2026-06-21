@@ -2382,7 +2382,7 @@ var scanner_feeds_ScannerFeeds = function ScannerFeeds() {
 /* harmony default export */ var scanner_feeds = (scanner_feeds_ScannerFeeds);
 // CONCATENATED MODULE: ./routes/shift-calendar/style.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var shift_calendar_style = ({"shift":"shift__0+O2-","cal":"cal__KIe-8"});
+/* harmony default export */ var shift_calendar_style = ({"shift":"shift__0+O2-","legend":"legend__tQzXe","cal":"cal__KIe-8"});
 // CONCATENATED MODULE: ./routes/shift-calendar/index.tsx
 
 
@@ -2390,7 +2390,14 @@ var scanner_feeds_ScannerFeeds = function ScannerFeeds() {
 var shift_calendar_ShiftCalendar = function ShiftCalendar() {
   return Object(external_preact_["h"])("div", {
     class: shift_calendar_style.shift
-  }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "Greater Toronto Multiple Alarm Association - Shift Calendar")), Object(external_preact_["h"])("h1", null, "TORONTO FIRE SHIFT CALENDAR"), Object(external_preact_["h"])("p", null, "The Toronto Fire Services Suppression Division is divided into four platoons, each working a 24-hour shift. Shift rotation is staggered over twenty-eight days as depicted in the below schedule provided by the Toronto Professional Firefighters Association. The staggered rotation allows each platoon to have two complete weekends off per month. Shift change occurs at 07:00 hrs each morning."), Object(external_preact_["h"])("img", {
+  }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "2026 Toronto Fire Shift Calendar | GTMAA"), Object(external_preact_["h"])("meta", {
+    name: "description",
+    content: "The 2026 Toronto Fire Services shift calendar."
+  })), Object(external_preact_["h"])("h1", null, "2026 TORONTO FIRE SHIFT CALENDAR"), Object(external_preact_["h"])("p", null, "The Toronto Fire Services Suppression Division is divided into four platoons, each working a 24-hour shift. Shift rotation is staggered over twenty-eight days as depicted in the below schedule provided by the Toronto Professional Firefighters Association. The staggered rotation allows each platoon to have two complete weekends off per month. Shift change occurs at 07:00 hrs each morning."), Object(external_preact_["h"])("img", {
+    class: shift_calendar_style.legend,
+    src: "/assets/shift-calendars/shift-legend.jpg",
+    alt: "Legend: red is A platoon working, grey is B, blue is C, yellow is D"
+  }), Object(external_preact_["h"])("img", {
     class: shift_calendar_style.cal,
     src: "/assets/shift-calendars/2026.jpg",
     alt: "2026 Toronto Fire Services shift calendar"
