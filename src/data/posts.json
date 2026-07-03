@@ -1,5 +1,21 @@
 [
   {
+    "id": "sup7-2026-06-30-parkway",
+    "title": "2nd Alarm Fire",
+    "date": "2026-06-30",
+    "category": "Support 7",
+    "location": "20 Parkway Forest Drive, North York",
+    "body": "Support 7 responded to a 2nd alarm fire at 20 Parkway Forest Drive in North York. Members were on the road by 1527 with Desmond driving and Brian dispatching, clearing the scene by 1704."
+  },
+  {
+    "id": "sup7-2026-06-30-progress",
+    "title": "Industrial 2nd Alarm",
+    "date": "2026-06-30",
+    "category": "Support 7",
+    "location": "333 Progress Avenue, Scarborough",
+    "body": "Support 7 attended an industrial 2nd alarm at Atlantic Packaging, 333 Progress Avenue. The canteen was on scene by 1119, the situation was soon under control with no additional resources required, and members returned to station by 1251."
+  },
+  {
     "id": "sup7-2026-06-21",
     "title": "3rd Alarm Fire",
     "date": "2026-06-21",
