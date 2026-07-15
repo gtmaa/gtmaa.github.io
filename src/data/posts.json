@@ -1,5 +1,43 @@
 [
   {
+    "id": "ofba-tour-london-2026-09-26",
+    "title": "OFBA Tour – London",
+    "date": "2026-09-26",
+    "category": "Club News",
+    "location": "London, Ontario",
+    "body": "The June Trumpet event calendar lists an Ontario Fire Buffs Associates tour of London on September 26th. Details are posted on the OFBA events page at https://www.ofba.ca/events/."
+  },
+  {
+    "id": "ofba-tour-st-catharines-2026-08-29",
+    "title": "OFBA Tour – St. Catharines",
+    "date": "2026-08-29",
+    "category": "Club News",
+    "location": "St. Catharines, Ontario",
+    "body": "The June Trumpet event calendar lists an Ontario Fire Buffs Associates tour of St. Catharines on August 29th. Details are posted on the OFBA events page at https://www.ofba.ca/events/."
+  },
+  {
+    "id": "regular-meeting-2026-08-20",
+    "title": "Regular Meeting",
+    "date": "2026-08-20",
+    "category": "Club News",
+    "body": "The GTMAA holds its regular monthly meeting on August 20th, as listed in the June Trumpet event calendar."
+  },
+  {
+    "id": "regular-meeting-2026-07-21",
+    "title": "Regular Meeting",
+    "date": "2026-07-21",
+    "category": "Club News",
+    "body": "The GTMAA holds its regular monthly meeting on July 21st, as listed in the June Trumpet event calendar."
+  },
+  {
+    "id": "ofba-tour-midland-2026-07-18",
+    "title": "OFBA Tour – Midland, Penetanguishene, and Tiny",
+    "date": "2026-07-18",
+    "category": "Club News",
+    "location": "Midland, Penetanguishene, and Tiny, Ontario",
+    "body": "The June Trumpet event calendar lists an Ontario Fire Buffs Associates tour of Midland, Penetanguishene, and Tiny on July 18th. Details are posted on the OFBA events page at https://www.ofba.ca/events/."
+  },
+  {
     "id": "sup7-2026-06-30-parkway",
     "title": "2nd Alarm Fire",
     "date": "2026-06-30",
