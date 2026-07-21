@@ -3,9 +3,8 @@ import { Post, getActivePosts, formatDate } from '../../lib/posts';
 import postsData from '../../data/posts.json';
 import style from './style.scss';
 
-const posts = getActivePosts(postsData as Post[]);
-
 const ClubNews: FunctionalComponent = () => {
+    const posts = getActivePosts(postsData as Post[]);
     return (
         <section>
             <h2>Club News</h2>

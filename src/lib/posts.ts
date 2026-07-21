@@ -9,6 +9,7 @@ export interface Post {
 }
 
 const STALE_AFTER_MONTHS = 6;
+const HIDE_BEYOND_DAYS = 14;
 
 export function formatDate(date: string): string {
     const d = new Date(date);
@@ -22,17 +23,22 @@ export function formatDate(date: string): string {
 }
 
 /**
- * Returns posts no older than STALE_AFTER_MONTHS, newest first.
- * Posts with an unparseable date are dropped.
+ * Returns posts within the visible window, newest first.
+ * The window runs from STALE_AFTER_MONTHS in the past to HIDE_BEYOND_DAYS in
+ * the future, so events published too far in advance stay hidden until they
+ * are within two weeks. Posts with an unparseable date are dropped.
  */
 export function getActivePosts(posts: Post[], now: Date = new Date()): Post[] {
-    const cutoff = new Date(now);
-    cutoff.setMonth(cutoff.getMonth() - STALE_AFTER_MONTHS);
+    const pastCutoff = new Date(now);
+    pastCutoff.setMonth(pastCutoff.getMonth() - STALE_AFTER_MONTHS);
+
+    const futureCutoff = new Date(now);
+    futureCutoff.setDate(futureCutoff.getDate() + HIDE_BEYOND_DAYS);
 
     return posts
         .filter((post) => {
             const d = new Date(post.date);
-            return !isNaN(d.getTime()) && d >= cutoff;
+            return !isNaN(d.getTime()) && d >= pastCutoff && d <= futureCutoff;
         })
         .sort((a, b) => b.date.localeCompare(a.date));
 }
