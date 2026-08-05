@@ -10,7 +10,16 @@
 	}
 }
 
-.player {
-	width: 325px;
-	height: 245px;
+.listenLink {
+	display: inline-block;
+	padding: 12px 24px;
+	border: 1px solid currentColor;
+	border-radius: 4px;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.listenLink:hover,
+.listenLink:focus {
+	text-decoration: underline;
 }
