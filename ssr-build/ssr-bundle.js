@@ -2360,29 +2360,20 @@ var notfound_Notfound = function Notfound() {
 /* harmony default export */ var notfound = (notfound_Notfound);
 // CONCATENATED MODULE: ./routes/scanner-feeds/style.scss
 // extracted by mini-css-extract-plugin
-/* harmony default export */ var scanner_feeds_style = ({"scannerFeeds":"scannerFeeds__bg41g","player":"player__3kxIE"});
+/* harmony default export */ var scanner_feeds_style = ({"scannerFeeds":"scannerFeeds__bg41g","listenLink":"listenLink__Ehmqo"});
 // CONCATENATED MODULE: ./routes/scanner-feeds/index.tsx
 
 
 
 var scanner_feeds_ScannerFeeds = function ScannerFeeds() {
-  var bg = 'fafafa';
-  var fg = '444';
-  if (typeof window !== "undefined") {
-    var mq = window.matchMedia('(prefers-color-scheme: dark)');
-    var useDarkMode = mq.matches;
-    if (useDarkMode) {
-      bg = '121212';
-      fg = 'eee';
-    }
-  }
   return Object(external_preact_["h"])("div", {
     class: scanner_feeds_style.scannerFeeds
-  }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "Greater Toronto Multiple Alarm Association - Scanner Feeds")), Object(external_preact_["h"])("h1", null, "TORONTO FIRE SCANNER FEEDS"), Object(external_preact_["h"])("p", null, "This feed provides a live stream of TFS radio traffic for South Command and the Automated Dispatch channel."), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "Toronto Fire South Command and Automated Dispatch"), Object(external_preact_["h"])("iframe", {
-    class: scanner_feeds_style.player,
-    src: "https://api.broadcastify.com/embed/player/?key=61000615&feedId=3140&html5=1&stats=1&as=1&bg=".concat(bg, "&fg=").concat(fg),
-    frameBorder: "0"
-  }, "Your browser does not support iFrames.")));
+  }, Object(external_preact_["h"])(HelmetExport, null, Object(external_preact_["h"])("title", null, "Greater Toronto Multiple Alarm Association - Scanner Feeds")), Object(external_preact_["h"])("h1", null, "TORONTO FIRE SCANNER FEEDS"), Object(external_preact_["h"])("p", null, "This feed provides a live stream of TFS radio traffic for South Command and the Automated Dispatch channel."), Object(external_preact_["h"])("section", null, Object(external_preact_["h"])("h2", null, "Toronto Fire South Command and Automated Dispatch"), Object(external_preact_["h"])("p", null, "Broadcastify has discontinued embedded players on third-party websites, so the feed now opens on their site."), Object(external_preact_["h"])("a", {
+    class: scanner_feeds_style.listenLink,
+    href: "https://www.broadcastify.com/listen/feed/3140",
+    target: "_blank",
+    rel: "noopener noreferrer"
+  }, "Listen on Broadcastify")));
 };
 /* harmony default export */ var scanner_feeds = (scanner_feeds_ScannerFeeds);
 // CONCATENATED MODULE: ./routes/shift-calendar/style.scss
