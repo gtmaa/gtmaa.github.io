@@ -3,18 +3,6 @@ import { Helmet } from 'react-helmet';
 import style from './style.scss';
 
 const ScannerFeeds: FunctionalComponent = () => {
-    let bg = 'fafafa';
-    let fg = '444';
-
-    if (typeof window !== "undefined") {
-        const mq = window.matchMedia('(prefers-color-scheme: dark)');
-        const useDarkMode = mq.matches;
-        if (useDarkMode) {
-            bg = '121212';
-            fg = 'eee';
-        }
-    }
-
     return (
         <div class={style.scannerFeeds}>
             <Helmet>
@@ -26,7 +14,8 @@ const ScannerFeeds: FunctionalComponent = () => {
 
             <section>
                 <h2>Toronto Fire South Command and Automated Dispatch</h2>
-                <iframe class={style.player} src={`https://api.broadcastify.com/embed/player/?key=61000615&feedId=3140&html5=1&stats=1&as=1&bg=${bg}&fg=${fg}`} frameBorder="0">Your browser does not support iFrames.</iframe>
+                <p>Broadcastify has discontinued embedded players on third-party websites, so the feed now opens on their site.</p>
+                <a class={style.listenLink} href="https://www.broadcastify.com/listen/feed/3140" target="_blank" rel="noopener noreferrer">Listen on Broadcastify</a>
             </section>
         </div>
     );
