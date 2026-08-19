@@ -1,4 +1,20 @@
 [
+  {
+    "id": "ofba-collectibles-show-2026-11-07",
+    "title": "OFBA Collectibles Show",
+    "date": "2026-11-07",
+    "category": "Community Events",
+    "location": "Toronto Fire Academy, 895 Eastern Avenue",
+    "body": "The Ontario Fire Buff Associates hold their annual Collectibles Show. Always a good day out for members who collect fire service memorabilia."
+  },
+  {
+    "id": "regular-meeting-2026-10-20",
+    "title": "GTMAA October Monthly Meeting",
+    "date": "2026-10-20",
+    "category": "Club News",
+    "location": "TPFFA Union Office, 14 Cosentino Drive, Scarborough",
+    "body": "On October 20 the club will hold its regular monthly meeting at the TPFFA Union Office, 14 Cosentino Drive, Scarborough. Our business meeting begins at 19:30 hrs sharp. Guests welcome."
+  },
     {
     "id": "fallen-firefighter-memorial-2026-09-27",
     "title": "Toronto Fallen Firefighter Memorial",
@@ -14,6 +30,14 @@
     "category": "Club News",
     "location": "TPFFA Union Office, 14 Cosentino Drive, Scarborough",
     "body": "On September 15 the club will hold its regular monthly meeting at the TPFFA Union Office, 14 Cosentino Drive, Scarborough. Our business meeting begins at 19:30 hrs sharp. Guests welcome."
+  },
+  {
+    "id": "yorkville-firehall-150-2026-08-23",
+    "title": "Yorkville Firehall 150th Anniversary",
+    "date": "2026-08-23",
+    "category": "Community Events",
+    "location": "Fire Station 312, 34 Yorkville Avenue",
+    "body": "A small community gathering at Fire Station 312 marks 150 years of the Yorkville firehall, starting at 10:00 am with a few words from invited guests. T-shirts and challenge coins will be available for sale to commemorate the event."
   },
   {
     "id": "ifba-convention-2026-08",
